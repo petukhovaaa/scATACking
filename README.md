@@ -21,7 +21,7 @@ Important remark: TSS enrichment scores weren't computed and so filtration of th
 
 The python script should be run this way:
 
-python python3/scATAC_clusterization_snapATAC_and_figures_making.py ids counts_file input_npz_file barcodes_map index_mapping
+`python python3/scATAC_clusterization_snapATAC_and_figures_making.py ids counts_file input_npz_file barcodes_map index_mapping`
 
 The results are:
 1. Umap plots with colloring by the leiden algorythm both for cells containing more than 2000 and 4000 fragments per cell
