@@ -22,7 +22,6 @@ fragments_numbers = [2000,4000]
 
 
 meta_data = pd.read_csv(counts_file, sep = '\t', header = None)
-meta_data = meta_data.merge(dhs_counts_data, 'left', left_on = 0, right_on = 0)
 meta_data['ID'] = meta_data[0].apply(lambda x: x[:x.find('_')])
 meta_data = meta_data.rename(columns={1:'#_of_detectesd_scATAC_fragments'})
 
