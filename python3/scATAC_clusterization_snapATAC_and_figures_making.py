@@ -15,10 +15,9 @@ mpl.rcParams['ps.fonttype'] = 42
 
 ids = str(sys.argv[1])
 counts_file = sys.argv[2]
-dhs_counts_file = sys.argv[3]
-input_file = sys.argv[4]
-barcodes_map = sys.argv[5]
-index_mapping = sys.argv[6]
+input_file = sys.argv[3]
+barcodes_map = sys.argv[4]
+index_mapping = sys.argv[5]
 fragments_numbers = [2000,4000]
 
 
