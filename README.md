@@ -27,3 +27,5 @@ The results are:
 1. Umap plots with colloring by the leiden algorythm both for cells containing more than 2000 and 4000 fragments per cell
 2. Umap plots with colloring by numbers of fragments in cells both for cells containing more than 2000 and 4000 fragments per cell
 3. Histograms of distribution of the cells according to numbers of fragments in cells (for cells containing more than 2000 fragments per cell, from 2000 to 10000 fragments per cell and from 2000 to 10000 fragments per cell but number of cells is in log scale)
+
+Also in this repository you may find the nextflow pipeline for running this scripts on multiple samples with examples of an input data spreadsheet and a nextflow config.
