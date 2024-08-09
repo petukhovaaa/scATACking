@@ -1,0 +1,1 @@
+/net/seq/data2/projects/apetukhova/ENCODE4/scripts/barcodes_matching_adaptation/work/a8/67516676c997adc2ce6f531f2ad904/index_mapping.txt
